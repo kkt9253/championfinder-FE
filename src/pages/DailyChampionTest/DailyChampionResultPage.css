@@ -1,0 +1,36 @@
+.result-page {
+  display: flex;
+  justify-content: center;  /* 가로 중앙 정렬 */
+  align-items: center;       /* 세로 중앙 정렬 */
+  min-height: 100vh;         /* 화면 전체 높이 */
+  background-color: #f0f4f7; /* 배경 색상 */
+}
+
+.result-box {
+  background: linear-gradient(135deg, #e0eafc, #cfdef3); /* 부드러운 그라데이션 배경 */
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* 부드러운 그림자 */
+  max-width: 600px;
+  text-align: center;
+  border: 2px solid #ddd;
+  margin-top: -100px;
+}
+
+.champion-name {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.champion-image {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.champion-description {
+  font-size: 1.2rem;
+  color: #666;
+}

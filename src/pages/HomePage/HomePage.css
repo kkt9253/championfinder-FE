@@ -1,0 +1,25 @@
+.homepage {
+  text-align: center;
+}
+
+.test-card-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.test-card {
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.test-card img {
+  width: 100%;
+  height: auto;
+}
+/*
+.testlist-top {
+  margin-top: 50px;
+}
+*/

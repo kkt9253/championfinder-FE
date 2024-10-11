@@ -1,0 +1,51 @@
+.test-thumbnail-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh - 40px); /* NavBar 높이를 뺀 높이 설정, 이게 화면의 div의 크기를 정해서 하단에 빈칸이 생기게 했음 */
+  background-color: #fbc2eb;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.test-name {
+  margin-bottom: 10px;
+}
+
+.test-thumbnail-image {
+  width: auto;
+  height: 50%;
+  margin-bottom: 20px;
+}
+
+.test-description {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.start-test-button {
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.start-test-button:hover {
+  background-color: #2980b9;
+}

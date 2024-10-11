@@ -1,0 +1,14 @@
+.progress-bar-container {
+  width: 500px; /* 가로길이의 절반으로 설정 */
+  background-color: #e0e0e0;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  overflow: hidden; /* 진행 바가 컨테이너 안에 있도록 설정 */
+}
+
+.progress-bar {
+  height: 20px;
+  background-color: #76c7c0;
+  border-radius: 10px;
+  transition: width 0.4s ease;
+}

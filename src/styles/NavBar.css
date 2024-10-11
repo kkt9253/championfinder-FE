@@ -1,0 +1,57 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  box-sizing: border-box; /* 박스 모델 설정 */
+}
+
+.navbar {
+  width: 100%;
+  background-color: #4285f4;
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+body {
+  margin: 0px; /* 기본 margin 제거 */
+  padding-top: 45px; /* 이거의 수치 차이로 아래의 div, 모든 요소들이 빈칸이 생기는 등의 일이 생김, 참고로 navbae를 fix해서 fix한만큼 빈공간이 생기기 때문에 이러한 현상이 생김, NavBar의 높이와 맞게 패딩 추가*/
+  box-sizing: border-box; /* 박스 모델 설정 */
+
+  min-height: 100vh; /* 최소 높이를 뷰포트 높이로 설정 */
+}
+
+.main-content {
+  flex-grow: 1; /* 남은 공간을 채우도록 설정 */
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-logo {
+  font-size: 24px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.nav-items .nav-button {
+  background-color: white;
+  color: #3498db;
+  border: none;
+  padding: 8px 16px;
+  margin-left: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.nav-items .nav-button:hover {
+  background-color: #2980b9;
+  color: white;
+}
